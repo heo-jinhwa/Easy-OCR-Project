@@ -69,7 +69,7 @@ class myocr:
         self.show_image() # 결과 보기
 
 
-# if __name__ == '__main__':
-#     myocr_ = myocr('./data/bills_sample1.jpg', 0.3)
-#     myocr_.ocr_process() # ocr 작업 시작
-#     print(myocr_.ocrResult)
+if __name__ == '__main__':
+    myocr_ = myocr('./data/bills_sample1.jpg', 0.3)
+    myocr_.ocr_process() # ocr 작업 시작
+    print(myocr_.ocrResult)

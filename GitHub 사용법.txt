@@ -9,7 +9,15 @@
  3-1) git config --global user.name "jinhwaheo"
  3-2) git config --global user.email "hjina0412@gmail.com"
  3-3) git config --list로 설정 잘 됐는지 확인
-
 4. 로컬PC의 소스코드가 있는 프로젝트 폴더를 VSCode로 열어서 Terminal 열어준다.
  4-1) git init (git을 하겠다는 초기 시작 설정)
  4-2) git add . (전부다 올림) / git add index.html (하나만 올림)
+ 4-3) git status (올릴 수 있는 파일 확인 / 상태 확인)
+5. History 만들기
+ 5-1) git commit -m "first commit" (" "는 히스토리 이름 - 저장 이름)
+6. Git Hub 연결하기
+ 6-1) git remote add origin https://github.com/heo-jinhwa/Easy-OCR-Project.git
+7. Git Hub 보내기
+ 7-1) git push origin master
+
+코드 수정하여 다시 Git Hub에 올리는 방법
