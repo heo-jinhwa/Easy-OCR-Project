@@ -1,0 +1,15 @@
+■ Git Hub 활용 ■
+- 소스코드 저장 (버전관리)
+- 소스코드 공유
+- 협업 공간
+
+1. git hub에 new repository 생성
+2. git 설치 
+3. git bash 열어서 config 설정 필요
+ 3-1) git config --global user.name "jinhwaheo"
+ 3-2) git config --global user.email "hjina0412@gmail.com"
+ 3-3) git config --list로 설정 잘 됐는지 확인
+
+4. 로컬PC의 소스코드가 있는 프로젝트 폴더를 VSCode로 열어서 Terminal 열어준다.
+ 4-1) git init (git을 하겠다는 초기 시작 설정)
+ 4-2) git add . (전부다 올림) / git add index.html (하나만 올림)
